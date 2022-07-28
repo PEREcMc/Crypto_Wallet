@@ -559,6 +559,9 @@ ul.nav__icons-list a {
 .market-table td:not(:last-child) {
   padding-right: 15px;
 }
+.market-table td:last-child {
+  padding-left: 7px;
+}
 
 .market-table__price {
   font-weight: 500;
@@ -633,6 +636,8 @@ ul.nav__icons-list a {
   border-radius: 30px;
   letter-spacing: 0.02em;
   color: #fff;
+  -webkit-box-shadow: 0px 5px 10px 0px #000;
+          box-shadow: 0px 5px 10px 0px #000;
 }
 
 .earn-free__wrapper {
@@ -644,6 +649,9 @@ ul.nav__icons-list a {
   font-size: 30px;
   line-height: 150%;
   margin-bottom: 11px;
+}
+.earn-free__title::first-line {
+  font-weight: 700;
 }
 
 .earn-free__text {

@@ -25,6 +25,10 @@
     td:not(:last-child) {
         padding-right: 15px;
     }
+    
+    td:last-child {
+        padding-left: 7px;
+    }
 }
 .market-table__price {
     font-weight: 500;

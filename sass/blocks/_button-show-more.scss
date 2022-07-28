@@ -1,0 +1,40 @@
+.button-show-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+}
+
+
+// миксин для точки кнопки настроек
+%round {
+    width: 4px;
+    height: 4px;
+    background: #A0A9B2;
+    border-radius: 50%;
+}
+
+
+.button-show-more__icon {
+    position: relative;
+    @extend %round;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: -8px;
+        left: 0;
+        @extend %round;
+
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        @extend %round;
+
+    }
+}

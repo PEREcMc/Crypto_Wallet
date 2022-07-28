@@ -1,0 +1,38 @@
+.header-icon {
+    width: 48px;
+    height: 48px;
+    background-color: #f2f5fa;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: backgroud-color 0.2s ease-in;
+
+    &:hover {
+        background-color: #bcd8ee;
+    }
+}
+
+.header-icon--new {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 55%;
+        left: 50%;
+
+        display: block;
+        width: 7px;
+        height: 7px;
+    
+        border-radius: 50%;
+        border: 2px solid #fff;
+        background: #ff5e5e;
+    
+    }
+
+}
+

@@ -1,0 +1,49 @@
+.dashboard {
+    position: fixed;
+    top: 40px;
+    bottom: 40px;
+    left: 40px;
+    right: 40px;
+
+    display: flex;
+    max-width: 1439px;
+    max-height: 926px;
+
+    background: #202020;
+    border-radius: 50px;
+}
+.dashboard__nav {
+    flex-shrink: 0;
+    padding: 40px 0px 75px 0px;
+    width: 138px;
+}
+
+.dashboard__body {
+    flex-grow: 1;
+    margin: 17px 19px 11px 0px;
+    padding: 26px 56px 54px 68px;
+    background: #ffffff;
+    border-radius: 45px;
+}
+.dashboard__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+.dashboard__cards {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.dashboard__market {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.dashboard__header-icons {
+    display: flex;
+    gap: 16px;
+}

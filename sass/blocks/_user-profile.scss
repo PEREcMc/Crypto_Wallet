@@ -1,0 +1,36 @@
+.user-profile {
+    height: 54px;
+    background: #F2F5FA;
+    border-radius: 27px;
+    display: flex;
+
+    transition: backgroud-color 0.2s ease-in;
+    &:hover {
+        background-color: #bcd8ee;
+    }
+    
+}
+.user-profile__avatar {
+    margin-top: -16px;
+    margin-left: 4px;
+    margin-right: 6px;
+}
+.user-profile__nav-button {
+    position: relative;
+    padding-right: 41px;
+
+
+    &::after {
+        position: absolute;
+        top: 50%;
+        right: 21px;
+        transform: translateY(-50%);
+
+        display: block;
+        content: "";
+        background-image: url('./../img/top-icons/arrow-down.svg');
+        width: 12px;
+        height: 7px;
+
+    }
+}

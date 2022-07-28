@@ -1,0 +1,63 @@
+.card-balance {
+    position: relative;
+    width: 486px;
+    height: 244px;
+    background: #e5f2fe;
+    border-radius: 24px;
+
+    padding: 26px 28px 25px 35px;
+}
+.card-balance__balance {
+}
+.card-balance__balance-value {
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.card-balance__balance-desc {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.card-balance__settings {
+    position: absolute;
+    top: 37px;
+    right: 28px;
+}
+.card-balance__period {
+    position: absolute;
+    bottom: 25px;
+    left: 34px;
+
+    & > * + * {
+        margin-left: 24px;
+    }
+}
+.card-balance__period-btn {
+    color: #acbccd;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+
+    &--active {
+        color: #040404;
+    }
+}
+.card-balance__chart {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 27px;
+}
+// .range-chart__value {
+//     display: block;
+//     position: absolute;
+//     right: 58px;
+//     top: 58px;
+// }
+// .range-chart-btn {
+//     color: #fff;
+// }

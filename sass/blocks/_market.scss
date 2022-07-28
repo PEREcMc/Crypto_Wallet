@@ -1,0 +1,21 @@
+
+.market {
+    max-width: 719px;
+    width: -webkit-fill-available;
+}
+.market__header {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.market__header-buttons {
+    display: flex;
+
+    & > * + * {
+        margin-left: 16px;
+    }
+}
+.dropdown-btn {
+}
+.market__table {
+}

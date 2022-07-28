@@ -1,0 +1,15 @@
+.earn-free__free-btn {
+    height: 46px;
+    padding: 0px 40px 0px 34px;
+    background-color: #BCDFFF;
+    border-radius: 23px;
+
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+
+    transition: backgroud-color 0.2s ease-in;
+    &:hover {
+        background-color: #bcd8ee;
+    }
+}
